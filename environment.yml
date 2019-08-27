@@ -1,4 +1,4 @@
-name: example-environment
+name: arcgis-environment
 channels:
   - esri
   - conda-forge
@@ -6,8 +6,11 @@ channels:
   - pytorch
 
 dependencies:
-  - python
+  - python=3.6
+  - fiona
+  - scikit-learn
   - numpy
+  - pandas >=0.23
   - pip
   - matplotlib
   - seaborn
@@ -21,8 +24,6 @@ dependencies:
   - cudatoolkit
 
   - pip:
-    - arcgis
     - nbgitpuller
     - sphinx-gallery
-    - pandas
     - matplotlib
