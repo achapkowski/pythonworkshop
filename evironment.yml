@@ -1,16 +1,28 @@
+name: example-environment
 channels:
-- fastai
-- pytorch
-- esri
-- anaconda
+  - esri
+  - conda-forge
+  - fastai
+  - pytorch
+
 dependencies:
-- matplotlib
-- seaborn
-- arcgis
-- scipy
-- pillow
-- numpy
-- fastai=1.0.54
-- torchvision=0.3.0
-- pytorch=1.1.0
-- cudatoolkit
+  - python
+  - numpy
+  - pip
+  - matplotlib
+  - seaborn
+  - arcgis
+  - scipy
+  - pillow
+  - numpy
+  - fastai=1.0.54
+  - torchvision=0.3.0
+  - pytorch=1.1.0
+  - cudatoolkit
+
+  - pip:
+    - arcgis
+    - nbgitpuller
+    - sphinx-gallery
+    - pandas
+    - matplotlib
