@@ -2,11 +2,13 @@ channels:
 - fastai
 - pytorch
 - esri
+- anaconda
 dependencies:
+- matplotlib
+- seaborn
 - arcgis
 - scipy
 - pillow
-- matplotlib
 - numpy
 - fastai=1.0.54
 - torchvision=0.3.0
