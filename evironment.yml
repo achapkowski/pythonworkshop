@@ -3,6 +3,7 @@ channels:
 - pytorch
 - esri
 dependencies:
+- arcgis
 - scipy
 - pillow
 - matplotlib
@@ -11,4 +12,3 @@ dependencies:
 - torchvision=0.3.0
 - pytorch=1.1.0
 - cudatoolkit
-- arcgis
