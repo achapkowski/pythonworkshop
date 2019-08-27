@@ -1,0 +1,38 @@
+channels:
+- defaults
+- fastai
+- pytorch
+- esri
+dependencies:
+- ipywidgets >=7
+- pandas >=0.23
+- pip
+- python=3.6
+- setuptools
+- widgetsnbextension >=3
+- keyring
+- keyrings.alt
+- nbconvert
+- beautifulsoup4
+- requests
+- jupyterlab
+- pytest
+- matplotlib
+- tornado<6
+- scikit-learn
+- scikit-image
+- keras
+- selenium
+- scipy
+- pillow
+- fastai=1.0.54
+- torchvision=0.3.0
+- pytorch=1.1.0
+- cudatoolkit
+- arcgis
+- pip:
+  - unittest-xml-reporting
+  - setuptools >=38.6
+  - sphinx-rtd-theme
+  - pytest-blockage
+  - junit2html
