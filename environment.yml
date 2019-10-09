@@ -18,10 +18,6 @@ dependencies:
   - scipy
   - pillow
   - numpy
-  - fastai=1.0.54
-  - torchvision=0.3.0
-  - pytorch=1.1.0
-  - cudatoolkit
 
   - pip:
     - nbgitpuller
